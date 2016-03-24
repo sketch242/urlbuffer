@@ -5,7 +5,7 @@
 *
 * This program is free software; you can redistribute it and/or modify it
 * under the terms of the GNU General Public License version 3 as published
-* by the Free Software Foundation (http://www.gnu.org/licenses/gpl.txt).
+* by the Free Software Foundation (https://www.gnu.org/licenses/gpl-3.0.txt).
 */ 
 
 #include <znc/Client.h>
@@ -15,7 +15,7 @@
 #include <znc/FileUtils.h>
 #include <znc/IRCNetwork.h>
 #include <climits>
-#include<fstream>
+#include <fstream>
 
 #define MAX_EXTS 6
 #define MAX_CHARS 16
