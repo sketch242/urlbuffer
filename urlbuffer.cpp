@@ -17,7 +17,7 @@
 #include <climits>
 #include <fstream>
 
-#define MAX_EXTS 6
+#define MAX_EXTS 8
 #define MAX_CHARS 16
 
 class CUrlBufferModule : public CModule 
@@ -74,7 +74,7 @@ public:
 };
 
 const CString CUrlBufferModule::supportedExts[MAX_EXTS] = 
-				{"jpg", "png", "gif", "jpeg", "bmp", "tiff"} ;
+				{"jpg", "png", "gif", "jpeg", "bmp", "tiff", "webm", "gifv"} ;
 
 const char CUrlBufferModule::unSupportedChars[MAX_CHARS] = 
 				{'|', ';', '!', '@', '#', '(', ')', '<', '>', '"',  '\'', '`', '~', '=', '&', '^'};
